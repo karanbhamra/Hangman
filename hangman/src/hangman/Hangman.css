@@ -1,0 +1,31 @@
+.root {
+	-fx-font-family: "Georgia, serif" ;
+	-fx-background-color: #FFCE00 ;
+}
+.hangman-board {
+	-fx-background-color: #0375B4 ;
+	-fx-padding: 15px ;
+	-fx-alignment: center ;
+}
+
+.hangman-board > .board-grid {
+	-fx-background-color: white ;
+	-fx-border-color: transparent ;
+}
+
+.hangman-board .label:disabled {
+	-fx-opacity: 1.0 ;
+}
+
+.hangman-board > .board-grid > .label {
+	-fx-font-size: 128pt ;
+}
+
+.status {
+	-fx-font-size: 24pt ;
+	-fx-text-fill: #262228 ;
+}
+
+.menu-bar {
+-fx-background-color : green;
+}
